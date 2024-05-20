@@ -1,0 +1,37 @@
+.imageDiv {
+
+    display: flex;
+    float: right;
+    padding-left: 10px;
+}
+
+.navPortfolio {
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+img {
+    margin: 5px;
+    border: 1px;
+    padding: 3px;
+}
+
+.about {
+    font-weight: 600;
+}
+
+.aboutContent {
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 2px;
+    padding-right: 5px;
+}
+
+
+
+
+nav {
+    background-color: aqua;
+}
