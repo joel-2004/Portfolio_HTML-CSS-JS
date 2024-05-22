@@ -1,3 +1,17 @@
+body {
+    background-image: url("./assets/homeBg.avif");
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    padding: 180px;
+}
+
+a:hover {
+    color: cyan;
+}
+
 .imageDiv {
 
     display: flex;
@@ -15,6 +29,7 @@ img {
     margin: 5px;
     border: 1px;
     padding: 3px;
+    max-width: 150px;
 }
 
 .about {
@@ -33,5 +48,5 @@ img {
 
 
 nav {
-    background-color: aqua;
+    background-color: lightcyan;
 }
