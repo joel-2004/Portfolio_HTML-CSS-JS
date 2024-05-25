@@ -39,22 +39,59 @@
             <div class="col-12 text-center mb-2">
                 <h3>Else fill out this form</h3>
             </div>
-            <div class="col-3"></div>
-            <div class="col-6">
-                <form>
-                    <div class="formDiv"> Name:
-                        <input type="text" name="name" id="name" class="form-control">
-                    </div>
-                </form>
-            </div>
         </div>
+        <form onsubmit="submitForm()">
+            <div class="row mt-4 mb-4">
+                <div class="col-3"></div>
+                <div class="col-2 text-center">
+                    <h4>Name</h4>
+                </div>
+                <div class="col-3">
+                    <input type="text" class="form-control" id="name" class="name" required>
+                </div>
+            </div>
+
+            <div class="row mt-4 mb-4">
+                <div class="col-3"></div>
+                <div class="col-2 text-center">
+                    <h4>Email</h4>
+                </div>
+                <div class="col-3">
+                    <input type="email" class="form-control" id="email" class="email" required>
+                </div>
+            </div>
+
+            <div class="row mt-4 mb-4">
+                <div class="col-3"></div>
+                <div class="col-2 text-center">
+                    <h4>Phone No</h4>
+                </div>
+                <div class="col-3">
+                    <input type="tel" class="form-control" id="phnumber" class="phnumber" required>
+                </div>
+            </div>
+
+            <div class="row mt-4 mb-4">
+                <div class="col-3"></div>
+                <div class="col-2 text-center">
+                    <h4>Message </h4>
+                </div>
+                <div class="col-3">
+                    <textarea class="form-control" id="message" class="message" required></textarea>
+                </div>
+            </div>
+
+
+            <div class="row mt-4 mb-4">
+                <div class="col-12 text-center">
+
+                    <button type="submit" class="btn btn-primary"> Submit</button>
+                </div>
+
+            </div>
+
+        </form>
     </div>
-
-
-    </div>
-
-
-
 
 
 
@@ -84,6 +121,17 @@
 
         </div>
     </footer>
+    <script>
+        function submitForm() {
+            // console.log("hello");
+            // let name = document.getElementById("name").value;
+            // let email = document.getElementById("email").value;
+            // let phnumber = document.getElementById("phnumber").value;
+            // let msg = document.getElementById("message").value;
+            // console.log(name + " " + email + " " + phnumber + " " + msg);
+            alert("Received your message");
+        }
+    </script>
 </body>
 
 </html>
