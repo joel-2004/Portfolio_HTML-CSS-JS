@@ -4,7 +4,8 @@ a {
 }
 
 .navA {
-    padding: 130px;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 a:hover {
